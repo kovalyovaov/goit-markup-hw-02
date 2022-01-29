@@ -1,0 +1,30 @@
+/*Цвет основного текста #212121 */
+/*Вторичный текст #757575 */
+/*белый цвет в н1 #FFFFFF */
+/*фон н1 и футера #2F303A */
+/*акцент #2196F3 */
+/*вторичный фон #F5F4FA */
+
+ul {
+  list-style: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.hero {
+  background-color: #2f303a;
+}
+
+/*----------------HEADER--------------*/
+
+/*-------------HERO--------------------*/
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+/*---------------------REASONS---------------*/
+
+/*-----------------ABOUT-----------------------*/
