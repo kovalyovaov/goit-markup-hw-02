@@ -1,13 +1,19 @@
-/*Цвет основного текста #212121 */
-/*Вторичный текст #757575 */
-/*белый цвет в н1 #FFFFFF */
-/*фон н1 и футера #2F303A */
-/*акцент #2196F3 */
-/*вторичный фон #F5F4FA */
+/*------Цвет основного текста #212121 -----------*/
+:root {
+  --heder-text-color: #212121;
+  --btn-color: #ffffff;
+  --accent-color: #2196f3;
+  --title-color: #212121;
+  --text-color: #757575;
+}
+/*--------Вторичный текст #757575 --------------*/
+
+/*акцент При подстветке #2196F3 */
 
 ul {
   list-style: none;
 }
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -16,7 +22,41 @@ body {
 }
 
 /*----------------HEADER--------------*/
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.42;
+  letter-spacing: 0.02em;
+  color: var(--heder-text-color);
+}
 
+.header-link:hover, .header-link:focus  {
+    color: var(--accent-color);
+}
+
+.header-link-email {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.header-link-email:hover, .header-link-email:focus {
+    color: var(--accent-color);
+}
+
+.heder-link-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.heder-link-tel:hover, .heder-link-tel:focus {
+    color: var(--accent-color);
+}
 /*-------------HERO--------------------*/
 .hero-title {
   font-weight: 900;
@@ -24,6 +64,18 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   color: #ffffff;
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--btn-color);
+}
+.hero-btn {
+  background-color: #2196f3;
 }
 /*---------------------REASONS---------------*/
 
