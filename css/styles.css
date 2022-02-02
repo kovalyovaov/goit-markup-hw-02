@@ -28,6 +28,11 @@ ul {
 body {
   font-family: "Roboto", sans-serif;
 }
+
+body {
+  font-weight: 400;
+}
+
 .hero {
   background-color: #2f303a;
 }
@@ -126,6 +131,11 @@ body {
 .hero-btn {
   background-color: var(--accent-color);
 }
+
+.hero-btn,
+.p-hero-btm {
+  cursor: pointer;
+}
 /*---------------------REASONS---------------*/
 
 .visually-hidden {
@@ -151,7 +161,6 @@ body {
 }
 
 .reasons-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -176,7 +185,7 @@ body {
   color: var(--title-color);
 }
 
-.about-pre-titile {
+.about-pre-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -185,7 +194,6 @@ body {
 }
 
 .about-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -204,7 +212,6 @@ footer {
 
 .footer-link-adress {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -213,7 +220,6 @@ footer {
 
 .footer-link-email {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -222,7 +228,6 @@ footer {
 
 .footer-link-tel {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -240,4 +245,36 @@ footer {
   color: var(--accent-color);
 }
 
-/*------------------*/
+/*-------PORTFOLIO-----------*/
+.p-hero-btm {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--btn-color);
+}
+
+.p-hero-btm:hover,
+.p-hero-btm:focus {
+  color: var(--accent-color);
+}
+
+.p-hero-btm {
+  background-color: var(--accent-color);
+}
+
+.p-hero-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+  color: var(--header-text-color);
+}
+
+.p-hero-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
