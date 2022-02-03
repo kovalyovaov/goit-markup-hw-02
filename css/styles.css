@@ -29,10 +29,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-body {
-  font-weight: 400;
-}
-
 .hero {
   background-color: #2f303a;
 }
@@ -88,7 +84,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--text-color);
 }
 
 .header-link-email:hover,
@@ -101,7 +97,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--text-color);
 }
 
 .header-link-tel:hover,
@@ -117,7 +113,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--btn-color);
 }
 
 .hero-btn {
@@ -246,22 +242,19 @@ footer {
 }
 
 /*-------PORTFOLIO-----------*/
-.p-hero-btm {
+.filtr-btm {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  color: var(--btn-color);
+  color: var(--header-text-color);
 }
 
-.p-hero-btm:hover,
-.p-hero-btm:focus {
-  color: var(--accent-color);
-}
-
-.p-hero-btm {
+.filtr-btm:hover,
+.filtr-btm:focus {
   background-color: var(--accent-color);
+  color: var(--btn-color);
 }
 
 .p-hero-title {
@@ -269,10 +262,13 @@ footer {
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
-  color: var(--header-text-color);
+  color: var(--title-color);
+}
+.gallary-title {
+  background-color: #f5f4fa;
 }
 
-.p-hero-text {
+.gallery-text {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
