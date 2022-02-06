@@ -169,6 +169,10 @@ body {
 
 /*-----------------ABOUT-----------------------*/
 
+.about {
+  background-color: #f5f4fa;
+}
+
 .about-title {
   color: var(--title-color);
 }
